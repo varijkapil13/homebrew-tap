@@ -6,25 +6,25 @@ cask "saral" do
     end
   end
 
-  version "0.7.2"
+  version "0.8.0"
 
   on_macos do
     on_arm do
-      sha256 "aff0096e338118fa4cb8ff098aa232e9d60195011ec0792a017cadcec28a9784"
+      sha256 "3f27d378fcc39447b58332fed15550643314bf63ac94b35f5a4782be761a0720"
       url "https://github.com/varijkapil13/saral/releases/download/v#{version}/saral_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "10134be5f1dc73382f9da601881f45223248674ad9eae545ee884aaddb5f3ec7"
+      sha256 "bc6d9f954cfd8d0aa4761810001450a096226c9bd1118c1a9b59146f9ad37e92"
       url "https://github.com/varijkapil13/saral/releases/download/v#{version}/saral_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "4e03a69c7617e872f6b2070a86e4303d6452dd2de4f3cf5445a1943a689a2d5c"
+      sha256 "2ea2efb3383b9227a2d6012c0faee38b2bf09c0e10cd8b88076f98b689f80680"
       url "https://github.com/varijkapil13/saral/releases/download/v#{version}/saral_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "8b696cc620e6f7f23253d5e5f8c802d4e7bef1c7e094fdbd4122a634f3a6ed7c"
+      sha256 "97d0c2e5ad61d14278991660567c40ea38cf3f2d2f6d7fb5fbcbda51e06a0c01"
       url "https://github.com/varijkapil13/saral/releases/download/v#{version}/saral_#{version}_linux_amd64.tar.gz"
     end
   end
